@@ -33,7 +33,7 @@ export default function Task(
 
             <div
                 className="actions"
-                onclose={event => event.stopPropagation()}
+                onClick={event => event.stopPropagation()}
                 >
                 {
                     state !== 'TASK_ARCHIVED'
